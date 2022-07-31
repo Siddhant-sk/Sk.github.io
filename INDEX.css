@@ -1,0 +1,101 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+
+}
+ section .home{
+     width: 100%;
+     height: auto; 
+    
+   
+ }
+ section ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color:white;
+ }
+ section li{
+     float:left;
+ }
+ section li a{
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+ section li a:hover{
+background-color: rgb(153, 146, 145);
+ }
+ .active {
+     background-color: rgb(29, 4, 248);
+ }
+Marquee {
+background-color: rgb(62, 226, 62);
+color: black;
+font-size:30px;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    background: #fff;
+    max-height: 350px;
+    width: 240px;
+    margin: 20px;
+    border-radius: 22px;
+    box-shadow: 0 5px 25px rgb(1, 1, 1);
+}
+.card-image{
+    max-width: 200px;
+    overflow: hidden;
+    
+}
+.card-image img{
+    max-width: 100%;
+    height: auto;
+}
+.card-info{
+    position: relative;
+    color: #222;
+    padding: 20px;
+    border-radius: 22px;
+    text-align: center;
+    background-color: rgba(27, 207, 168, 0.616);
+}
+.card-info h3{
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+}
+.container img{
+    width: 240px;
+    height: 240px;
+    border-radius: 22px;
+}
+
+h4{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    font-size: 3em;
+}
+.card:hover{
+    box-shadow: -5px 25px 35px rgb(253, 2, 44)
+}
+.container .card a{
+    text-decoration: none;
+}
+
+h4:hover{
+    color: rgb(240, 10, 182);
+}
